@@ -1,15 +1,16 @@
+*{
+    color: #cccccc;
+}
+
 body{
-    background-image: url(Portada_Dark_Souls_III.jpg);
+    background-image: url(../imagenes/Portada_Dark_Souls_III.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } */
-
-body{
-    font-family: 'Times New Roman', Times, serif;
-}
 
 header, aside, main, footer{
     background-color: black;
@@ -35,7 +36,15 @@ main, aside{
     
 }
 
+/* .enlaces{
+
+} */
+
 .cabecera:hover{
     background-color: orange;
     color: black;
+}
+
+aside{
+    display: inline-block;
 }
