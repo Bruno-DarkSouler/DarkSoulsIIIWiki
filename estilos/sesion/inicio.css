@@ -3,22 +3,25 @@ main{
     width: auto;
     float:none;
     position:absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .campo-texto{
     height: 30px;
-    margin-top:1%;
+    margin: 1% 0%;
     background-color: black;
-    border: 5px solid #ffa500;
-    border-radius: 10px;
+    border: 3px solid #ff5000;
+    /* border-radius: 10px; */
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .enviar{
-    background-color: #ffa500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #ff5000;
     color: black;
     margin-top: 10px;
     height: 30px;
