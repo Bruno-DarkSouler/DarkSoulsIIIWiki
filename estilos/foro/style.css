@@ -2,6 +2,10 @@
     color: #cccccc;
 }
 
+.seccion{
+    padding-left: 5px
+}
+
 body{
     background-image: url(../../imagenes/Portada_Dark_Souls_III.jpg);
     background-repeat: no-repeat;
@@ -16,23 +20,21 @@ header, aside, main, footer{
     background-color: black;
     border: 5px solid #ffa500;
     margin-top: 10px;
-
+    border-radius: 10px;
 }
 
-main, aside{
-    display: inline-block;
-}
+/* footer{
+    display: inline;
 
-footer{
-    display: block;
-}
+} */
 
 main{
     width: 70%;
+    float: right;
 }
 
 aside{
-    width: 30%;
+    width: 28%;
 }
 
 .logo{
