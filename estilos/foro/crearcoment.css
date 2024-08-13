@@ -1,0 +1,28 @@
+main{
+    padding: 2%;
+    width: auto;
+    float:none;
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.etiqueta{
+    font-size: 20px;
+}
+
+.comentario{
+    margin-top:1%;
+    background-color: black;
+    border: 5px solid #ffa500;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enviar{
+    background-color: #ffa500;
+    color: black;
+    margin-top: 10px;
+    height: 30px;
+    width: 90px;
+}
