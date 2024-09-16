@@ -7,9 +7,11 @@ main{
     transform: translate(-50%);
 }
 
+
 .etiqueta{
     font-size: 20px;
 }
+
 
 .comentario{
     margin-top:1%;
@@ -17,6 +19,10 @@ main{
     border: 5px solid #ffa500;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.archivo{
+    
 }
 
 .enviar{

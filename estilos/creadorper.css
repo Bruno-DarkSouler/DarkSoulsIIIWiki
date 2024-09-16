@@ -1,0 +1,23 @@
+.nombreestad{
+    display: inline-block;
+    width: 15%;
+}
+
+.masmenos{
+    display: inline-block;
+}
+
+.cant{
+    display: inline-block;
+    margin: 0% 2%;
+}
+
+.mas{
+    display: inline-block;
+    background-color: green;
+}
+
+.menos{
+    display: inline-block;
+    background-color: red;
+}

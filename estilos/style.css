@@ -2,6 +2,10 @@
     color: #cccccc;
 }
 
+html{
+    height: 100%;
+}
+
 .seccion{
     padding-left: 5px
 }
@@ -23,6 +27,10 @@ header, aside, main, footer{
     border: 3px solid #ff5000;
     margin-top: 10px;
 }
+
+/* header{
+    position: sticky;
+} */
 
 main{
     width: 70%;
@@ -56,5 +64,6 @@ aside{
 .cabecera:hover{
     border-radius: 100%;
     background-color: #ff5000;
+    background-image: url(../imagenes/DarkSoulsIIILogo.png);
     color: black;
 }
